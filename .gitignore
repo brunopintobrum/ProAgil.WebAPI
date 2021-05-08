@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+
+# .NET Core
+
 # User-specific files
 *.rsuser
 *.suo
@@ -361,3 +364,84 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+ProAgil-App/.browserslistrc
+ProAgil-App/.editorconfig
+ProAgil-App/.gitignore
+ProAgil-App/angular.json
+ProAgil-App/karma.conf.js
+ProAgil-App/package.json
+ProAgil-App/package-lock.json
+ProAgil-App/README.md
+ProAgil-App/tsconfig.app.json
+ProAgil-App/tsconfig.json
+ProAgil-App/tsconfig.spec.json
+ProAgil-App/tslint.json
+ProAgil-App/e2e/protractor.conf.js
+ProAgil-App/e2e/tsconfig.json
+ProAgil-App/e2e/src/app.e2e-spec.ts
+ProAgil-App/e2e/src/app.po.ts
+ProAgil-App/src/favicon.ico
+ProAgil-App/src/index.html
+ProAgil-App/src/main.ts
+ProAgil-App/src/polyfills.ts
+ProAgil-App/src/styles.css
+ProAgil-App/src/test.ts
+ProAgil-App/src/app/app.component.css
+ProAgil-App/src/app/app.component.html
+ProAgil-App/src/app/app.component.spec.ts
+ProAgil-App/src/app/app.component.ts
+ProAgil-App/src/app/app.module.ts
+ProAgil-App/src/app/app-routing.module.ts
+ProAgil-App/src/assets/.gitkeep
+ProAgil-App/src/environments/environment.prod.ts
+ProAgil-App/src/environments/environment.ts
+
+# ANGULAR -->
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
